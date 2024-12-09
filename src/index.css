@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  animation: fade 1.5s;
+}
+
+body{
+  background: linear-gradient(#111,#302d2d);
+  color: #fff;
+}
+@keyframes fade{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
